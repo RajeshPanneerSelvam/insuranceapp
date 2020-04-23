@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'insurance-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'insuranceapp';
+  title:string = 'Auto Insurance Claim';
+
+  logoPath:string = './assets/app_logo.jpg';
 }
